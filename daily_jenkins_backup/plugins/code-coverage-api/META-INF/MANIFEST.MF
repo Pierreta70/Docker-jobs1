@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: hafner
+Build-Jdk: 11.0.11
+Extension-Name: code-coverage-api
+Specification-Title: Code Coverage API Plugin
+Implementation-Title: code-coverage-api
+Implementation-Version: 1.4.0
+Group-Id: io.jenkins.plugins
+Short-Name: code-coverage-api
+Long-Name: Code Coverage API Plugin
+Url: https://github.com/jenkinsci/code-coverage-api-plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.4.0
+Hudson-Version: 2.249.1
+Jenkins-Version: 2.249.1
+Plugin-Dependencies: checks-api:1.7.0,echarts-api:5.1.0-2,font-awesome
+ -api:5.15.3-2,forensics-api:1.0.0,plugin-util-api:2.2.0,pull-request-
+ monitoring:1.7.1;resolution:=optional,workflow-multibranch:2.24,displ
+ ay-url-api:2.3.4,jackson2-api:2.12.3
+Plugin-Developers: Shenyu Zheng:cizezsy:zsy19980307@gmail.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/code-coverage-api-plugin
+
