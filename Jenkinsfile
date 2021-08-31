@@ -14,6 +14,6 @@ pipeline {
     
         stage('buid the image') {
             steps {
-                sh ('docker build -t linux2021/geradine:001')
+                sh 'docker build -t linux2021/geradine:001'
             }
         }
