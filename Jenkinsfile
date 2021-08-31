@@ -1,11 +1,19 @@
+
 pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('clean the environment') {
             steps {
-                echo 'Hello World'
+                sh rmi -rf '$(docker images -aq)'
+                sh rm -rf '$(docker ps -aq)'
             }
         }
-    }
-}
+    
+    
+    
+        stage('buid the image') {
+            steps {
+                sh ('docker build -t linux2021/geradine:001')
+            }
+        }
