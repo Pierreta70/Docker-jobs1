@@ -17,3 +17,4 @@ pipeline {
                 sh 'docker build -t linux2021/geradine:001'
             }
         }
+    }
