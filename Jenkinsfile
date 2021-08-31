@@ -5,8 +5,8 @@ pipeline {
     stages {
         stage('clean the environment') {
             steps {
-                sh 'rmi -rf $(docker images -aq)'
-                sh 'rm -rf $(docker ps -aq)'
+                sh 'rmi -f $(docker images -aq)'
+                sh 'rm -f $(docker ps -aq)'
             }
         }
     
