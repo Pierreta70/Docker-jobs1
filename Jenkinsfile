@@ -15,7 +15,7 @@ pipeline {
         stage('buid the image') {
             steps {
                 sh 'sudo docker build -t linux2021/geradine .'
-                sh 'sudo docker login -u linux2021 -p Police1998
+                sh 'sudo docker login -u linux2021 -p Police1998'
         }
     }
  }
